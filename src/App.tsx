@@ -10,10 +10,10 @@ function App() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Tu espacio, nuestra pasión
+              Tekio
             </h1>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
-              Conectamos tus sueños de un mejor espacio con expertos que lo harán realidad
+              Armamos, colocamos y reparamos 
             </p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfMGD6zLWUYT95j6M96pWk3OUK0TgFL8igRfIOeW6yCwr_0kQ/viewform"
@@ -21,7 +21,7 @@ function App() {
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 rounded-full font-semibold text-lg hover:bg-blue-50 transition-colors duration-200"
             >
-              Solicita nuestros servicios
+              Llena el formulario para comenzar 
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
@@ -32,7 +32,7 @@ function App() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
-            Nuestros Servicios
+            ¿Qué ofrecemos? 
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -40,10 +40,10 @@ function App() {
                 <Hammer className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Armado de Muebles
+                Armamos Muebles
               </h3>
               <p className="text-gray-600">
-                Expertos en ensamblar cualquier tipo de mueble, desde libreros hasta camas
+                Somos expertos en ensamblar cualquier tipo de mueble, desde escritorios hasta libreros
               </p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -51,7 +51,7 @@ function App() {
                 <Frame className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Colocación
+                Colocamos
               </h3>
               <p className="text-gray-600">
                 Instalamos cuadros, repisas y todo lo que necesites para decorar tu espacio
@@ -154,7 +154,3 @@ function App() {
         </div>
       </footer>
     </div>
-  );
-}
-
-export default App;
