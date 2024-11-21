@@ -1,4 +1,4 @@
-iimport React from 'react';
+import React from 'react';
 import { Hammer, Frame, Wrench, ArrowRight, CheckCircle2, MapPin } from 'lucide-react';
 
 function App() {
