@@ -32,7 +32,7 @@ function App() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
-            Nuestros Servicios
+            ¿Qué ofrecemos? 
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -40,10 +40,10 @@ function App() {
                 <Hammer className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Armado de Muebles
+                Armamos Muebles
               </h3>
               <p className="text-gray-600">
-                Expertos en ensamblar cualquier tipo de mueble, desde libreros hasta camas
+                Somos expertos en ensamblar cualquier tipo de mueble, desde escritorios hasta libreros
               </p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-200">
@@ -51,7 +51,7 @@ function App() {
                 <Frame className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Colocación
+                Colocamos
               </h3>
               <p className="text-gray-600">
                 Instalamos cuadros, repisas y todo lo que necesites para decorar tu espacio
